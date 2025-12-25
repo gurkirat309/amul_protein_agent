@@ -18,4 +18,4 @@ def send_email(subject, message):
         print(f"❌ Error: {e}")
 
 # --- TEST ---
-send_email("Test Email from Python", "Hello! This is a test email sent via Python.")
+send_email("Simple automated text mail")
