@@ -13,7 +13,7 @@ def send_email(subject, message):
             server.login(SENDER_EMAIL, SENDER_PASSWORD)
             email_message = f"Subject: {subject}\n\n{message}"
             server.sendmail(SENDER_EMAIL, RECEIVER_EMAIL, email_message)
-            print("✅ Email sent successfully!")
+            print("✅ Email sent successfully! The email bot is working perfectly fine !!!")
     except Exception as e:
         print(f"❌ Error: {e}")
 
