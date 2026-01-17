@@ -41,7 +41,7 @@ def send_email(product):
 
 # --------------- MAIN CHECK FUNCTION ---------------
 def check_availability():
-    print("🔍 Checking product availability...")
+    print(" Checking product availability...")
 
     options = Options()
     options.add_argument("--headless")  # Run Chrome invisibly
