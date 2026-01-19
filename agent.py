@@ -93,5 +93,5 @@ def check_availability():
 if __name__ == "__main__":
     while True:
         check_availability()
-        print(" Waiting 30 minutes before next check...\n")
+        print(" Waiting 20 seconds before next check...\n")
         time.sleep(2000)
