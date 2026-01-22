@@ -15,7 +15,7 @@ def send_email(subject, message):
             server.sendmail(SENDER_EMAIL, RECEIVER_EMAIL, email_message)
             print("✅ Email sent successfully! The email bot is working perfectly fine !!!")
     except Exception as e:
-        print(f"❌ Error: {e}")
+        print(f" Error: {e}")
 
 # --- TEST ---
 send_email("Simple automated text mail sent")
