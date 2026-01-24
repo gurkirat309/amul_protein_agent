@@ -1,9 +1,15 @@
 import smtplib
+from dotenv import load_dotenv
+
+from agent import SENDER
+
+
+load_dotenv()
 
 # --- CONFIG ---
-SENDER_EMAIL = "gurki3090@gmail.com"
-SENDER_PASSWORD = "wovm anqg zuvu ihtq"
-RECEIVER_EMAIL = "jaggigs309@gmail.com"
+SENDER_EMAIL = SENDER
+SENDER_PASSWORD = PASS 
+RECEIVER_EMAIL = RECEIVER
 # --------------
 
 def send_email(subject, message):

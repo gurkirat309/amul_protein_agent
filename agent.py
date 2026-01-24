@@ -18,9 +18,9 @@ TARGET_PRODUCTS = [
     "Amul High Protein Blueberry Shake, 200 mL | Pack of 8"
 ]
 
-SENDER = "gurki3090@gmail.com"
-APP_PASSWORD = "wovm anqg zuvu ihtq"
-RECEIVER = "jaggigs309@gmail.com"
+SENDER = SENDER
+APP_PASSWORD = PASS
+RECEIVER = RECEIVER
 
 # --------------- EMAIL FUNCTION ---------------
 def send_email(product):
