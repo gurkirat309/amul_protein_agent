@@ -63,7 +63,7 @@ def check_availability():
         apply_button.click()
         time.sleep(5)
     except Exception:
-        print("⚠️ Pincode input not found — maybe already set.")
+        print("Pincode invalid or not found")
 
     # Step 2: Scrape HTML
     soup = BeautifulSoup(driver.page_source, "html.parser")
