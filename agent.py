@@ -10,7 +10,7 @@ import time
 
 # --------------- CONFIG ---------------
 URL = "https://shop.amul.com/en/browse/protein"
-PINCODE = "560060"
+PINCODE = "208007"
 
 TARGET_PRODUCTS = [
     "Amul High Protein Rose Lassi, 200 mL | Pack of 30",
