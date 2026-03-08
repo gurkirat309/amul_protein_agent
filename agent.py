@@ -10,7 +10,7 @@ import time
 
 # --------------- CONFIG ---------------
 URL = "https://shop.amul.com/en/browse/protein"
-PINCODE = "208007"
+PINCODE = "560060"
 
 TARGET_PRODUCTS = [
     "Amul High Protein Rose Lassi, 200 mL | Pack of 30",
@@ -35,9 +35,9 @@ def send_email(product):
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
             server.login(SENDER, APP_PASSWORD)
             server.send_message(msg)
-        print(f"✅ Email sent for {product}")
+        print(f" Email sent for {product}")
     except Exception as e:
-        print("❌ Email sending failed:", e)
+        print(" Email sending failed:", e)
 
 # --------------- MAIN CHECK FUNCTION ---------------
 def check_availability():
