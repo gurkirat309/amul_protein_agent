@@ -15,6 +15,7 @@ PINCODE = "560060"
 TARGET_PRODUCTS = [
     "Amul High Protein Rose Lassi, 200 mL | Pack of 30",
     "Amul High Protein Milk, 250 mL | Pack of 8",
+    "Amul lassi 450ML,250ml | pack of 5",
     "Amul High Protein Blueberry Shake, 200 mL | Pack of 8"
 ]
 
