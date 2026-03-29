@@ -82,9 +82,9 @@ def check_availability():
         if product_name in TARGET_PRODUCTS:
             found_any = True
             if p.find("div", class_="out-of-stock"):
-                print(f"❌ {product_name} - OUT OF STOCK")
+                print(f" {product_name} - OUT OF STOCK")
             else:
-                print(f"✅ {product_name} - AVAILABLE")
+                print(f"{product_name} - AVAILABLE")
                 send_email(product_name)
 
     if not found_any:
