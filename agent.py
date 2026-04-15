@@ -51,7 +51,7 @@ def check_availability():
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
     driver.get(URL)
-    time.sleep(3)
+    time.sleep(8)
 
     # Step 1: Enter pincode
     try:
@@ -88,7 +88,7 @@ def check_availability():
                 send_email(product_name)
 
     if not found_any:
-        print("⚠️ No target products found on page.")
+        print("No target products found on page.")
 
 # --------------- LOOP ---------------
 if __name__ == "__main__":
