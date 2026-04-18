@@ -67,8 +67,8 @@ def check_availability():
         print("Pincode invalid or not found")
 
     # Step 2: Scrape HTML
-    soup = BeautifulSoup(driver.page_source, "html.parser")
-    driver.quit()
+    # soup = BeautifulSoup(driver.page_source, "html.parser")
+    # driver.quit()
 
     found_any = False
     products = soup.find_all("div", class_="product-item")
