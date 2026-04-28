@@ -79,13 +79,13 @@ def check_availability():
             continue
         product_name = name_tag.text.strip()
 
-        if product_name in TARGET_PRODUCTS:
-            found_any = True
-            if p.find("div", class_="out-of-stock"):
-                print(f" {product_name} - OUT OF STOCK")
-            else:
-                print(f"{product_name} - AVAILABLE")
-                send_email(product_name)
+        # if product_name in TARGET_PRODUCTS:
+        #     found_any = True
+        #     if p.find("div", class_="out-of-stock"):
+        #         print(f" {product_name} - OUT OF STOCK")
+        #     else:
+        #         print(f"{product_name} - AVAILABLE")
+        #         send_email(product_name)
 
     if not found_any:
         print("No target products found on page.")
